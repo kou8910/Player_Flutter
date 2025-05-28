@@ -28,9 +28,9 @@ player plugin.
   # If you want to specify the SDK version（eg 11.6.15041), use:  s.dependency 'TXLiteAVSDK_Player','11.6.15041'
   s.dependency 'TXLiteAVSDK_Player','~> 12.5.18359'
   # s.dependency 'FTXPiPKit'
-  s.vendored_frameworks = [
-    'localdep/FTXPiPKit.xcframework'
-  ]
+  #s.vendored_frameworks = [
+  #  'localdep/FTXPiPKit.xcframework'
+  #]
 
   # Flutter.framework does not contain a i386 slice.
   s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES', 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'i386' }
